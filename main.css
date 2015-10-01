@@ -1,5 +1,9 @@
 
 
+body {
+	background-image: url(old-world-map);
+}
+
 
 h1 {
 	border-bottom: 1px solid black;
