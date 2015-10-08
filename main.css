@@ -1,21 +1,46 @@
 
 
-body {
-	background-image: url(old-world-map);
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica);
+
+* {
+	box-sizing: borderbox;
+	font-family: 'IM Fell DW Pica', serif;
 }
 
+header {
+	border-bottom: 1px solid navy;
+	height: 60px;
+	margin: 0 5px;
+	overflow: auto;
+	position: relative;
+}
 
 h1 {
-	border-bottom: 1px solid black;
 	color: navy;
+	float:left;
+	width: 25%;
 }
 
-p {
-	background-color: aqua;
+nav ul li {
+	font-size: 1.25em;
 	display: inline-block;
-	padding: 50px;
+	float: right;
+	height: 11px;
+	list-style-type: none;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	width: 60px;
 }
 
 .countries {
-	padding: 0 200 0 200;
+	background-color: aqua;
+	display: inline-block;
+	height: 50px;
+	padding: 100px;
+	width: 50px;
+}
+
+img {
+	opacity: 0.3;
 }
