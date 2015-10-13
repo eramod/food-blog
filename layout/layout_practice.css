@@ -1,3 +1,7 @@
+body {
+	background: #666;
+	padding: 10px 50px 200px;
+}
 
 [class*='col-'] {
 	float: left;
@@ -19,7 +23,7 @@
 }
 
 .grid {
-	background: #888;
+	background: #666;
 }
 
 .grid:after {
