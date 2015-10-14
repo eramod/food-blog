@@ -1,14 +1,40 @@
-
+/*************************
+GENERAL
+*************************/
 
 @import url(https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica);
+
 
 * {
 	box-sizing: borderbox;
 	font-family: 'IM Fell DW Pica', serif;
 }
 
+.page {
+	background: #bbb;
+	margin: 0;
+	width: 0 auto;
+}
+
+.container:after{
+	content: "";
+	display: table;
+	clear:both;
+}
+
+[class*="photo-"] {
+	float: left;
+	width: 30%;
+	padding: 5px;
+}
+
+
+/*************************
+HEADING
+*************************/
+
 header {
-	border-bottom: 1px solid navy;
+	border-bottom: 2px solid navy;
 	height: 60px;
 	position: relative;
 }
@@ -24,29 +50,22 @@ nav ul li {
 	display: inline-block;
 	float: right;
 	list-style-type: none;
-	margin: 10px;
-	padding: 10px;
+	margin: 10px 10px 0 10px;
 	text-align: center;
 	width: 60px;
-}
-
-.container {
-	width: 0 auto;
-
-}
-
-.container:after{
-	content: "";
-	display: table;
-	clear:both;
-}
-
-[class*="photo-"] {
-	float: left;
-	width: 30%;
-	padding: 5px;
 }
 
 div > p {
 	text-align: center;
 }
+
+nav a {
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: red;
+}
+
+
+
