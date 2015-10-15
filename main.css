@@ -15,21 +15,20 @@ img {
 }
 
 
-
-
-
 /*************************
 HEADING
 *************************/
 
 .wrapper {
+	height: 478px;
 	margin: 0;
 	max-width: 1400px;
 }
 
 header {
 	background-image: url("img/moroccan-spice.jpg");
-	height: 478px;
+	background-repeat: no-repeat;
+	height: 100%;
 	overflow: auto;
 	width: 100%;
 }
