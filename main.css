@@ -4,29 +4,27 @@ GENERAL
 
 @import url(https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica);
 
-
-* {
-	box-sizing: borderbox;
+body {
+	box-sizing: border-box;
 	font-family: 'IM Fell DW Pica', serif;
+	margin: 0;
 }
 
-.page {
+.wrapper {
 	background: #bbb;
 	margin: 0;
-	width: 0 auto;
+	max-width: 940px;
+	max-width: 100%;
 }
 
-.container:after{
-	content: "";
-	display: table;
-	clear:both;
+img {
+	max-width: 100%;
 }
 
-[class*="photo-"] {
-	float: left;
-	width: 30%;
-	padding: 5px;
+#spice-long {
+	width: 100%;
 }
+
 
 
 /*************************
@@ -34,18 +32,27 @@ HEADING
 *************************/
 
 header {
-	border-bottom: 2px solid navy;
-	height: 60px;
+	background-color: #555;
+	background-image: url("img/moroccan-spice.jpg");
+	height: 478px;
 	position: relative;
+	margin-top: -20px;
+	max-width: 1300px;
+	overflow: auto;
 }
 
 h1 {
-	color: navy;
+	color: #fafae1;
 	float:left;
-	width: 25%;
+	text-align: left;
+}
+
+nav {
+	margin-right: 20px;
 }
 
 nav ul li {
+	color: #fafae1;
 	font-size: 1.25em;
 	display: inline-block;
 	float: right;
@@ -61,11 +68,36 @@ div > p {
 
 nav a {
 	text-decoration: none;
+	color: #fafae1;
 }
 
-nav a:hover {
-	color: red;
+nav a:hover, h1:hover {
+	color: #bd200d;
 }
 
 
+
+/*************************
+IMAGE GALLERY
+*************************/
+.gallery {
+	margin: 0 auto;
+	background-color: #ddd;
+}
+
+.gallery:after{
+	content: "";
+	display: table;
+	clear:both;
+}
+
+[class*="photo-"] {
+	float: left;
+	margin: 1%;
+	width: 30%;
+}
+
+#spice-long {
+	margin: -33px 0 5px 0;
+}
 
