@@ -44,10 +44,11 @@ h1 {
 	color: #fafae1;
 	float:left;
 	text-align: left;
+	margin: 28px 0 0 10px;
 }
 
 nav {
-	margin-right: 20px;
+	margin: -25px 20px 0 0;
 }
 
 nav ul li {
