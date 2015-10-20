@@ -11,7 +11,6 @@ GENERAL
 body {
 	font: 1em/1.5 'IM Fell DW Pica', serif;
 	margin: 0;
-	background-color: #1f1918;
 }
 
 img {
@@ -23,11 +22,12 @@ img {
 HEADING
 *************************/
 
-/*.wrapper {
-	height: 100%;
+.wrapper {
+	/*height: 100%;*/
 	margin: 0;
 	max-width: 1400px;
-}*/
+	background-color: #1f1918;
+}
 
 .main-header {
 	background-image: url("img/morocco-spice-original.jpg");
@@ -116,16 +116,50 @@ IMAGE GALLERY
 } */
 
 /*************************
+PAGE: ABOUT
+*************************/
+.about-wrapper {
+	background-color: ;
+}
+
+.secondary-header {
+	height: 120px;
+	background-color: #1f1918;
+}
+
+h2 {
+	text-align: center;
+}
+
+.profile-photo {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	margin: 70px 30px 20px 80px;
+}
+
+.about-photo {
+	float: left;
+	width: 30%;
+}
+
+.about-text{
+	float: left;
+	width: 40%;
+}
+
+/*************************
 FOOTER
 *************************/
 
 footer {
-	/*background-color: #1f1918;*/
+	background-color: #1f1918;
 	clear: both;
 	color: #fafae1;
 	font-size: 0.75em;
 	padding: 30px 0 0 0;
 	text-align: center;
+	height: 150px;
 }
 
 .social-icon {
@@ -136,8 +170,3 @@ footer {
 	margin: 0 5px;
 }
 
-/*
-footer a {
-	background-color: #fff;
-}
-*/
