@@ -9,7 +9,7 @@ GENERAL
 }
 
 body {
-	font-family: 'IM Fell DW Pica', serif;
+	font: 1em/1.5 'IM Fell DW Pica', serif;
 	margin: 0;
 	background-color: #1f1918;
 }
@@ -23,30 +23,31 @@ img {
 HEADING
 *************************/
 
-.wrapper {
-	height: 478px;
+/*.wrapper {
+	height: 100%;
 	margin: 0;
 	max-width: 1400px;
-}
+}*/
 
-header {
-	background-image: url("img/moroccan-spice.jpg");
-	background-position: center;
+.main-header {
+	background-image: url("img/morocco-spice-original.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 480px;
+	background-position: center;
+	height: 850px;
+	/*padding: 170px;*/
 }
 
 
-h1 {
+header h1 {
 	color: #fafae1;
 	float:left;
-	margin: 33px 0 0 10px;
+	margin: 60px 0 0 15px;
 	text-align: left;
 }
 
 nav {
-	margin: -25px 20px 0 0;
+	padding: 1px 20px 0 0;
 }
 
 nav ul li {
